@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="card">
+                        <div class="card-header alert alert-primary">
+                            <div class="form-row">
+                                <div class="form-group col-md-10">
+                                    <button class="btn btn-danger">Sign up</button>
+
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <small id="passwordHelpBlock" class=" btn btn-success justify-content-end">
+                                        Sign in
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Select" class="form-label">Select*</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <div class="form-group">
+                                        <input type="radio" name="" id="" checked> Knowledge Seeker
+                                        <input type="radio" name="" id=""> Knowledge Provier
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="As" class="form-label">As *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <div class="form-group">
+                                        <input type="radio" name="" id="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) ">
+                                        Individual
+                                        <input type="radio" name="" id="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) ">
+                                        Company/Institute
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Username">Username *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <input type="text" class="form-control" id="" placeholder="Choose your Username"
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) " required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="E-mail">E-mail *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <input type="text" class="form-control" id=""
+                                        placeholder="Your current email address"
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) " required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Password">Password *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <input type="text" class="form-control" id="" placeholder="Create a password"
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) " required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Re:assword">Re:password *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <input type="text" class="form-control" id="" placeholder="Confirm password"
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) " required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Re:assword">Full name *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <input type="text" class="form-control" id=""
+                                        placeholder="Your First name and Last name"
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) " required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Gender" class="form-label">Gender *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <div class="form-group">
+                                        <input type="radio" name="" id=""> Male
+                                        <input type="radio" name="" id=""> Female
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="cmpany-name">Company name *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <input type="text" class="form-control" id="" placeholder="Your company name"
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) " required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Category">Category *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <input type="text" class="form-control" id="" placeholder="Category"
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) " required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Contact-number">Contact number *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <input type="number" class="form-control" id="" placeholder="Your contact number"
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) " required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Contact-number">Location *</label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <input type="text" class="form-control" id="" placeholder="Your location"
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]) " required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-row justify-content-end">
+                                    <input class="form-check" type="checkbox" value="" id="invalidCheck" required>
+                                    Agree to terms and conditions
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-row justify-content-end">
+                                <button type="button" class="btn btn-danger m-2">Sing Up</button>
+                                <button type="submit" class="btn btn-primary m-2">Sing Up with facebook</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
